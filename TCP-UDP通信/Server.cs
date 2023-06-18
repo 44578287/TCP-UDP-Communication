@@ -115,7 +115,7 @@ namespace TCP_UDP通信
             {
                 tcpClients.Remove(id); // 从字典中删除TCP客户端
                 tcpClient.Dispose(); // 释放TCP连接资源
-                Logger.WriteInfor($"已与客户端{id}断开TCP连接");
+                Logger.WriteWarn($"已与客户端{id}断开TCP连接");
                 TcpDisconnect?.Invoke(id); // 触发TCP断开连接事件
             }
         }

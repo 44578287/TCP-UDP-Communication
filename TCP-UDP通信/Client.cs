@@ -29,7 +29,8 @@ namespace TCP_UDP通信
             this.retry_number = number;
             this.retry_delay = delay;
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            remoteEP = new IPEndPoint(IPAddress.Parse(host), port);
+            IPHostEntry hostEntry = Dns.GetHostEntry(host);
+            remoteEP = new IPEndPoint(hostEntry.AddressList[0], port);
         }
 
         public void ConnectTCP()
