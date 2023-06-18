@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>TCP_UDP通信</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="LoongEgg.LoongLogger">
+      <HintPath>..\..\LoongLog\LoongEgg.LoongLogger\bin\Debug\LoongEgg.LoongLogger.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

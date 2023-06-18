@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP-UDP通信", "TCP-UDP通信\TCP-UDP通信.csproj", "{A8BAD1EA-612A-49F1-8A96-A468BEBB9731}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8BAD1EA-612A-49F1-8A96-A468BEBB9731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BAD1EA-612A-49F1-8A96-A468BEBB9731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BAD1EA-612A-49F1-8A96-A468BEBB9731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BAD1EA-612A-49F1-8A96-A468BEBB9731}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E74C6F0F-0805-4F19-9622-4B63B15869DD}
+	EndGlobalSection
+EndGlobal
